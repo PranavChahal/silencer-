@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Vehicles</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Search by No.</a></li>
+        <li><a href="#">Near me</a></li>
+      </ul>
+    </nav>
+    <section class="search-bar">
+    <div class="container">
+      <input
+        id="searchbar"
+        onkeyup="search_num()"
+        type="text"
+        name="search"
+        placeholder="Search vehicles"
+      />
+      <button>Search</button>
+    </section>
+
+      <ul id="list">
+        <li class="num">DL3A4028</li>
+        <li class="num">DL4F4042</li>
+        <li class="num">DL3A4327</li>
+        <li class="num">PB9G8038</li>
+      </ul>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
+
+<script src="script.js"></script>
+</body>
+</html>

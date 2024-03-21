@@ -1,0 +1,120 @@
+/* Reset default browser styles */
+body{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #1F2833;
+    background-image: url("_6d203baa-9428-4ed0-a1a5-3785bd649cdd.jpeg");
+    background-size: cover;
+  }
+  
+  /* Style the navigation bar */
+  nav {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    text-align: center;
+    background-color: #333;
+  }
+  
+  nav ul li {
+    display: inline;
+    background-color: #333;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #333;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+    background-color: #333;
+  }
+  
+  /* Style the vehicle list */
+  .vehicle-list {
+    margin: 20px;
+  }
+  
+  .vehicle-list h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #66FCF1;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .vehicle-list ul {
+    padding: 10px;
+    background-color: #f4f4f4;
+  }
+  
+  .vehicle-list ul li {
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #C5C6C7;
+  }
+  .model {
+    text-align: center;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 85%;
+  }
+  
+  .model img {
+
+    width: 200px; /* Adjust size as needed */
+  }
+  
+  .dialogue-box1 {
+    background-color: #f4f4f4;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    right: calc(100% + 10px); /* Position it to the right of the image */
+    transform: translateY(-50%);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .search-bar {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .search-bar button:hover {
+    background-color: #555;
+  }
+  .model1 {
+    text-align: center;
+    margin-top: 20px;
+    position: absolute;
+    bottom: auto;
+    align-items: center;
+    align-self: center;
+  }
+  
+  .model1 img {
+
+    width: 100%; /* Adjust size as needed */
+    align-items: center;
+  }
